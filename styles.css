@@ -1,0 +1,122 @@
+/* ... Previous CSS styles ... */
+
+/* Add styles for image containers */
+#images-section {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    margin-top: 10px;
+  }
+  <!-- this is the area for the hovering-->
+  .image-container{ position:relative; display: inline-block;}
+  .original-image{width: 200px; height: auto; }
+  
+
+  .hover-image{position:absolute; top: 100px; left: 40p; width: 200px height; auto; opacity: 0; transition: opacity 0.3s ease;}
+  .image-container:hover .hover-image{ opacity: 1;}
+  
+  .text-right{display:inline-block; margin-left: 10px;}
+  
+  .image-container {
+    
+    margin: 1rem;
+  }
+  
+  .image-container  img {
+    
+    max-height: 300px;
+  }
+  
+  /* Add styles for buttons */
+  #buttons-section {
+    text-align: left;
+  }
+  
+  .buttons {
+    margin-top: 6rem;
+  }
+  
+  .game-button {
+    display:inline-block;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 25px;
+    border: 100px;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .game-button:hover {
+    background-color: orange;
+  }
+  
+  /* ... Remaining CSS styles ... */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    color: orange;
+    margin: right 30px;
+  }
+  h2 {
+    border-bottom: 2px solid greenyellow;
+    padding-bottom: 0.5rem;
+    text-align: center; color:#007bff;
+  }
+
+  p{font-size:20px;}
+.left1-aligned-header{text-align: left; color: #007bff;}
+
+  .centered-header{ text-align:center; color:orange;}
+
+  .left-aligned-header{text-align: left; color: orange;}
+  
+  .game-start {
+
+    
+    color:#007bff;
+    
+  }
+  .game-card {
+    margin-bottom: 1rem;
+   
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .contact-host{
+
+    text-align: right;
+    color:orange;}
+.italic{font-style:italic;}
+  
