@@ -1,1 +1,1 @@
-board games.   No monies are involved in either fees or gambling.  Its just a way to meet and have a nice social time.
+Card and board games to develop community connections for senior citizens of Allied Gardens/San Diego.   
