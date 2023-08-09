@@ -26,11 +26,7 @@
     
     max-height: 300px;
   }
-@media (max-width: 768px) {
-    #images-section{
-      flex-direction: column;
-      align-items: flex-start;
-    }
+
 
   
   /* Add styles for buttons */
