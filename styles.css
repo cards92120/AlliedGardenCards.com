@@ -2,11 +2,14 @@
 
 /* Add styles for image containers */
 #images-section {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  margin-top: 10px;
+    
   }
+
+  
   <!-- this is the area for the hovering-->
   .image-container{ position:relative; display: inline-block;}
   .original-image{width: 200px; height: auto; }
@@ -25,10 +28,14 @@
   .image-container  img {
     
     max-height: 300px;
+    
   }
-
-
-  
+  @media (max-width: 768px) {
+    #images-section{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
   /* Add styles for buttons */
   #buttons-section {
     text-align: left;
@@ -42,7 +49,7 @@
     display:inline-block;
     background-color: #007bff;
     color: #fff;
-    font-size: 25px;
+    font-size: 18px;
     border: 100px;
     border-radius: 10px;
     padding: 0.5rem 1rem;
@@ -101,7 +108,7 @@
     
   }
   .game-card {
-    margin-bottom: 1rem;
+    margin: 1rem 0;
    
   }
   
@@ -121,6 +128,10 @@
     text-align: right;
     color:orange;}
 .italic{font-style:italic;}
-    
- 
 
+footer {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;}
+
+  
