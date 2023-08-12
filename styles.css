@@ -40,7 +40,7 @@
   #buttons-section {
     text-align: left;
   }
-  
+  .pcolor { color: blueviolet; font-size: 25px;  font:bold;  margin-right: 200px;}
   .buttons {
     margin-top: 6rem;
   }
